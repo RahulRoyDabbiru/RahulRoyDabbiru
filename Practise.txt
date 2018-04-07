@@ -1,0 +1,145 @@
+***************Conditional Statemens*******************************
+***************IF Statement****************************************                                   
+
+public class If{
+
+public static void main(String[] args)
+
+{
+
+int age;
+
+Scanner input = new Scanner(System.in);
+System.out.println("Please enter age");
+age = input.nextInt();
+if(age>18)
+{
+system.out.println("above 18);
+}
+}}
+
+*************** ifElse******************
+
+
+
+public class ifElse{
+
+public static void main(String[] args)
+{
+
+int age;
+
+Scanner input = new Scanner(System.in);
+System.out.println("Please enter age:");
+age = input.nextInt();
+if(age>18)
+{
+System.out.println("above 18");
+}
+else
+{
+system.out.println("below 18");
+}
+}}
+
+***************If-ELSEif-ElseIF**************
+
+public class IfeLSEiF
+{
+public static void main(String[] args)
+{
+int age ;
+Scanner input = new ScannerSystem.in);
+System.out.println("please Enter age:");
+age = input.nextInt();
+if(age>18  &&  age < 35)
+{
+System.out.println("age is between");
+}
+else if(age>39 &&  age<65)
+{
+System.out.println("age is between");
+}
+else
+{
+System.out.println("not matched");
+}
+}}
+
+
+*********************Switch Case*********************
+
+Public class switch
+{
+public static void main(String[] args)
+{
+int age;
+Scanner input = new Scanner(System.in);
+System.out.println("Please enter age");
+age = input.nextInt();
+switch(age)
+{
+case 18:
+System.out.println("age 18");
+break;
+case 24:
+System.out.println("age 24");
+break;
+default:
+System.out.println("not matched");
+
+}
+}
+}
+
+*********************Iteration Statements*************************************
+*********************While Loop************************************
+
+public class While
+{
+Public static void main(String[] args)
+{
+int i=0;
+while(i<=5)
+{
+System.out.println(i);
+i++;
+}
+}
+}
+
+
+********************Do While*********************************
+
+public class DoWhile
+{
+Public static void main(String[] args)
+{
+int i=0;
+do
+{
+System.out.println(i);
+i++;
+}while(i<=5);
+}
+}
+
+
+***************************For loop******************************************
+
+pubic class For
+{
+Public static void main(String[] args)
+{
+for(i=0;i<=5;i++)
+{
+System.out.println(i);
+}
+}}
+
+create a calc project which can do the add sub div mul operatons which will accept max of 2-5 numbers
+
+Also, student project
+
+
+
